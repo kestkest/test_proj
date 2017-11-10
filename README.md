@@ -2,10 +2,10 @@
 - Копируем проект с сайта github.com следующей комадой: 
 git clone https://github.com/kestkest/test_proj.git
 
--Создаем вирутальное окружение: virtualenv -p python3 env
--Активируем окружение: source env/bin/activate
--Ставим зависимости из папки с приложением, где лежит файл requirements.txt:
- pip install -r requirements.txt
+- Создаем вирутальное окружение: virtualenv -p python3 env.
+- Активируем окружение: source env/bin/activate.
+- Ставим зависимости из папки с приложением, где лежит файл requirements.txt:
+  pip install -r requirements.txt
 - Стартуем приложение: python app.py
 - Запускаем тесты: python tests.py
 
